@@ -8,7 +8,7 @@ namespace _23June
         {
 
 
-            Console.WriteLine(DetermineGrade());
+            Console.WriteLine(GiveRemark());
         }
         static string DetermineGrade()
         {
@@ -38,6 +38,26 @@ namespace _23June
             else
             {
                 return "Marks Exceeding The Limit";
+            }
+        }
+        static string GiveRemark()
+        {
+            string remark = DetermineGrade();
+            if (remark == "Absent" || remark == "Fail")
+            {
+                return "Try Again";
+            }
+            else if (remark == "Grade-C" || remark == "Grade-B")
+            {
+                return "Good, But Improve Next Time ";
+            }
+            else if (remark == "Grade-A")
+            {
+                return "Keep It Up";
+            }
+            else
+            {
+                return "Typo Error ";
             }
         }
 
