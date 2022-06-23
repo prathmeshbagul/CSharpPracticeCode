@@ -7,7 +7,7 @@ namespace _23June
 
         static void Main(string[] args)
         {
-            int x=0;
+            int x=6;
             do
             {
                 Console.WriteLine(" ABCD ");
