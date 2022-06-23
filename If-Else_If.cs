@@ -7,8 +7,8 @@ namespace _23June
         static void Main(string[] args)
         {
 
-            string result = DetermineGrade();
-            Console.WriteLine(result);
+
+            Console.WriteLine(DetermineGrade());
         }
         static string DetermineGrade()
         {
@@ -37,7 +37,7 @@ namespace _23June
             }
             else
             {
-                return "Grades Exceeding The Limit";
+                return "Marks Exceeding The Limit";
             }
         }
 
