@@ -5,9 +5,9 @@
 
         static void Main(string[] args)
         {
-            IdentifyArmstrong(135);
+            IdentifyArmstrong(153);
         }
-        static void IdentifyArmstrong(int n)
+        static string IdentifyArmstrong(int n)
         {
             int r, Sum = 0, t;
             t = n;
@@ -20,11 +20,11 @@
             }
             if (t == Sum)
             {
-                Console.WriteLine("Number is Armstrong");
+                return "Number is Armstrong";
             }
             else
             {
-                Console.WriteLine("Number is Not Armstrong");
+                return "Number is Not Armstrong";
             }
         }
 
