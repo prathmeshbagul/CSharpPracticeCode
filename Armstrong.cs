@@ -1,14 +1,30 @@
-﻿namespace June24
+﻿namespace ConsoleApp24June
 {
     class Program
     {
 
         static void Main(string[] args)
         {
-            IdentifyArmstrong(153);
+
+            Console.WriteLine("Enter the number");
+
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            int result = IdentifyArmstrong(n);
+
+            if (n == result)
+            {
+                Console.WriteLine("Number is Armstrong");
+            }
+            else
+            {
+                Console.WriteLine("Number is Not Armstrong");
+            }
+
         }
-        static string IdentifyArmstrong(int n)
+        static int IdentifyArmstrong(int n)
         {
+
             int r, Sum = 0, t;
             t = n;
             while (n > 0)
@@ -18,14 +34,7 @@
                 n = n / 10;
 
             }
-            if (t == Sum)
-            {
-                return "Number is Armstrong";
-            }
-            else
-            {
-                return "Number is Not Armstrong";
-            }
+            return Sum;
         }
 
     }
