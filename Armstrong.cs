@@ -1,20 +1,15 @@
-﻿
-using System;
-
-namespace projectname1 {
-
-         class Program
+﻿namespace June24
+{
+    class Program
     {
 
         static void Main(string[] args)
         {
-            IdentifyArmstrong();
+            IdentifyArmstrong(135);
         }
-        static void IdentifyArmstrong()
+        static void IdentifyArmstrong(int n)
         {
-            int n, r, Sum = 0, t;
-            Console.WriteLine("Enter The Number");
-            n = Convert.ToInt32(Console.ReadLine());
+            int r, Sum = 0, t;
             t = n;
             while (n > 0)
             {
@@ -34,8 +29,5 @@ namespace projectname1 {
         }
 
     }
-
-
-
 
 }
