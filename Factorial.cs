@@ -1,26 +1,29 @@
-class Program
+namespace ConsoleApp3
 {
-
-    static void Main(string[] args)
+    class Program
     {
 
-        Console.WriteLine("Enter the number");
-        FindFactorial();
-
-    }
-
-    static void FindFactorial()
-    {
-        int i, factorial = 1, number;
-
-        number = Convert.ToInt32(Console.ReadLine());
-
-
-        for (i = 1; i <= number; i++)
+        static void Main(string[] args)
         {
-            factorial *= i;
+
+            Console.WriteLine("Enter the number");
+            int number = Convert.ToInt32(Console.ReadLine());
+            int result = FindFactorial(number);
+            Console.WriteLine($"The factorial of {number} is {result}");
+
         }
 
-        Console.WriteLine("THE FACTORIAL OF " + number + " IS " + factorial);
+        static int FindFactorial(int number)
+        {
+            int i, factorial = 1;
+
+            for (i = 1; i <= number; i++)
+            {
+
+                factorial *= i;
+            }
+
+            return factorial;
+        }
     }
 }
