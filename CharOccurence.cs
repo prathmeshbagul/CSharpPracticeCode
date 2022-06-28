@@ -9,7 +9,6 @@
             int occurence = CountOccurences(a, b);
             Console.WriteLine(occurence);
         }
-
         public static int CountOccurences(string a, char b)
         {
             int count = 0;
