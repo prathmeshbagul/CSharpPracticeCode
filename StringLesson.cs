@@ -1,4 +1,4 @@
-namespace _24June_2
+namespace StringLesson
 {
     class Program
     {

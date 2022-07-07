@@ -1,0 +1,15 @@
+D:\CSharpFiles\ArrayVsArrayList\bin\Debug\net6.0\ArrayVsArrayList.exe
+D:\CSharpFiles\ArrayVsArrayList\bin\Debug\net6.0\ArrayVsArrayList.deps.json
+D:\CSharpFiles\ArrayVsArrayList\bin\Debug\net6.0\ArrayVsArrayList.runtimeconfig.json
+D:\CSharpFiles\ArrayVsArrayList\bin\Debug\net6.0\ArrayVsArrayList.dll
+D:\CSharpFiles\ArrayVsArrayList\bin\Debug\net6.0\ArrayVsArrayList.pdb
+D:\CSharpFiles\ArrayVsArrayList\obj\Debug\net6.0\ArrayVsArrayList.csproj.AssemblyReference.cache
+D:\CSharpFiles\ArrayVsArrayList\obj\Debug\net6.0\ArrayVsArrayList.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharpFiles\ArrayVsArrayList\obj\Debug\net6.0\ArrayVsArrayList.AssemblyInfoInputs.cache
+D:\CSharpFiles\ArrayVsArrayList\obj\Debug\net6.0\ArrayVsArrayList.AssemblyInfo.cs
+D:\CSharpFiles\ArrayVsArrayList\obj\Debug\net6.0\ArrayVsArrayList.csproj.CoreCompileInputs.cache
+D:\CSharpFiles\ArrayVsArrayList\obj\Debug\net6.0\ArrayVsArrayList.dll
+D:\CSharpFiles\ArrayVsArrayList\obj\Debug\net6.0\refint\ArrayVsArrayList.dll
+D:\CSharpFiles\ArrayVsArrayList\obj\Debug\net6.0\ArrayVsArrayList.pdb
+D:\CSharpFiles\ArrayVsArrayList\obj\Debug\net6.0\ArrayVsArrayList.genruntimeconfig.cache
+D:\CSharpFiles\ArrayVsArrayList\obj\Debug\net6.0\ref\ArrayVsArrayList.dll
